@@ -2,6 +2,12 @@
 
 This is my bootcamp Module 19 Assignment, Unsupervised ML Challenge
 
+Please note that the completed assignment is under Crypto_Clustering.ipynb while the original version provided is the Crypto_Clustering_starter_code.ipynb.
+
+Resources contains the original csv used for this assignment.
+
+Readme Images includes images used for this readme.
+
 <h3>Preparing the Data</h3><hr>
 
 - Use the StandardScaler() module from scikit-learn to normalize the data from the CSV file.

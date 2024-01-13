@@ -11,3 +11,27 @@ This is my bootcamp Module 19 Assignment, Unsupervised ML Challenge
 - The first five rows of the scaled DataFrame should appear as follows:
 
 <img width="998" alt="scaled_DataFrame" src="https://github.com/tinalina1003/CryptoClustering/assets/127992819/0e3c6514-7ecf-462b-93f4-ce31889f6833">
+
+<h3>Find the Best Value for k Using the Original Scaled DataFrame</h3><hr>
+
+Use the elbow method to find the best value for k using the following steps:
+
+- Create a list with the number of k values from 1 to 11.
+- Create an empty list to store the inertia values.
+- Create a for loop to compute the inertia with each possible value of k.
+- Create a dictionary with the data to plot the elbow curve.
+- Plot a line chart with all the inertia values computed with the different values of k to visually identify the optimal value for k.
+- Answer the following question in your notebook: What is the best value for k?
+
+<h3>Cluster Cryptocurrencies with K-means Using the Original Scaled Data</h3><hr>
+
+Use the following steps to cluster the cryptocurrencies for the best value for k on the original scaled data:
+
+- Initialize the K-means model with the best value for k.
+- Fit the K-means model using the original scaled DataFrame.
+- Predict the clusters to group the cryptocurrencies using the original scaled DataFrame.
+- Create a copy of the original data and add a new column with the predicted clusters.
+- Create a scatter plot using hvPlot as follows:
+   -  Set the x-axis as "PC1" and the y-axis as "PC2".
+    - Color the graph points with the labels found using K-means.
+    - Add the "coin_id" column in the hover_cols parameter to identify the cryptocurrency represented by each data point.
